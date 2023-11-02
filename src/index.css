@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables */
+:root {
+  --AzulMarinoEdbyte: #13161c;
+  --AzulMarinoPalidoEdbyte: #202836;
+  --VerdeEdbyte: #209f38;
+  --VerdeAvatar: #17d139;
+  --Gris: #777777;
+
+  --VerdeParaTracking: #67b41e;
+  --GrisParaTracking: #a0a0a0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+.fondoEdbyte{
+  background-color: var(--AzulMarinoEdbyte);
+}
+
+.fondoEdbytePalido {
+  background-color: var(--AzulMarinoPalidoEdbyte);
+}
+.fondoEdbyteVerde {
+  background-color: var(--VerdeEdbyte);
+}
+.fondoLogoEdbyteVerdeAvatar {
+  background-color: var(--VerdeAvatar);
+}
+.textoAzulLogoEdbyte {
+  color: var(--AzulMarinoEdbyte);
+}
+.textoVerdeLogoEdbyte {
+  color: var(--VerdeEdbyte);
+}
+
+.textoGrisOscuro {
+  color: var(--Gris);
+}
+
+.FondoVerdeParaBotones {
+  background-color: var(--VerdeEdbyte);
+}
+
+.bordeVerdeLogoEdbyte {
+  border-color: var(--VerdeEdbyte);
+}
+
+.FaseActiva {
+  background-color: var(--VerdeParaTracking);
+  border-color: var(--VerdeParaTracking);
+}
+.FaseInactiva {
+  background-color: var(--GrisParaTracking);
+  border-color: var(--GrisParaTracking);
+}
+.maxwEdgar
+{
+  overflow-x: hidden;
+}
